@@ -1,4 +1,8 @@
-<!DOCTYPE html>
+<
+
+    </div>
+</body>
+</html><!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -33,35 +37,34 @@
             font-size: 32px;
             color: #333;
         }
-        .achievement-list {
-            margin: 20px auto;
+
+        /* Style for individual achievement sections */
+        .achievement-section {
+            margin: 40px auto;
             width: 70%;
             text-align: left;
         }
-        .achievement-list li {
-            list-style: none;
-            margin: 15px 0;
-            padding: 10px;
-            border-bottom: 1px solid #ccc;
-        }
-        .achievement-list li h2 {
-            font-size: 24px;
-            color: #3c84d6;
-        }
-        .achievement-list li p {
-            font-size: 18px;
-            line-height: 1.6;
-        }
-        .image-section {
-            margin: 20px auto;
-            text-align: center;
-        }
-        .image-section img {
-            width: 250px; /* Adjust size as needed */
+        .achievement-section img {
+            display: block;
+            margin: 0 auto 20px auto;
+            width: 250px; /* Adjust width as needed */
             height: auto;
             border: 5px solid #00bfbf;
             border-radius: 10px;
-            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+        .achievement-section img:hover {
+            transform: scale(1.05);
+        }
+        .achievement-section h2 {
+            font-size: 24px;
+            color: #3c84d6;
+            text-align: center;
+        }
+        .achievement-section p {
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: center;
         }
     </style>
 </head>
@@ -77,27 +80,34 @@
     <div class="content">
         <h1>Achievements</h1>
 
-        <!-- Achievement Image Section -->
-        <div class="image-section">
-            <img src="achievement_photo.jpg" alt="Achievement Photo">
+        <!-- First Achievement Section -->
+        <div class="achievement-section">
+            <a href="cert1.html" target="_blank">
+                <img src="cer1.jpg" alt="Culinary Excellence Award 2022">
+            </a>
+            <h2>My Portfolio 2U - 2024</h2>
+            <p>Received training and guidance on creating a portfoli for high sahool and university entrance.</p>
         </div>
 
-        <!-- Achievement List Section -->
-        <ul class="achievement-list">
-            <li>
-                <h2>Culinary Excellence Award - 2022</h2>
-                <p>Received the prestigious Culinary Excellence Award for outstanding performance in modern culinary techniques.</p>
-            </li>
-            <li>
-                <h2>Best Pastry Chef - 2021</h2>
-                <p>Awarded the Best Pastry Chef award at the National Culinary Championship for creating innovative desserts.</p>
-            </li>
-            <li>
-                <h2>Michelin Star Training Program - 2020</h2>
-                <p>Completed a year-long training under a Michelin-starred chef, mastering advanced cooking methods and techniques.</p>
-            </li>
-            <!-- Add more achievements as needed -->
-        </ul>
+        <!-- Second Achievement Section -->
+        <div class="achievement-section">
+            <a href="cer2.jpg" target="_blank">
+                <img src="cer2.jpg" alt="Best Pastry Chef 2021">
+            </a>
+            <h2>The EP Math Magician's competition - 2023</h2>
+            <p>Actively participated in Checkers Competition M.1-3</M>.</p>
+        </div>
+
+
+        <!-- Third Achievement Section -->
+        <div class="achievement-section">
+            <a href="cer3.jpg" target="_blank">
+                <img src="cer3.jpg" alt="Michelin Star Training Program 2020">
+            </a>
+            <h2>Into the Twisted Realm-Myths and Legends - 2023</h2>
+            <p>Participated in English Camp activities and did various activities in the camp.</p>
+        </div>
+
     </div>
 </body>
 </html>
