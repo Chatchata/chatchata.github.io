@@ -17,7 +17,7 @@ h1 {
 }
 
 p {
-    color: #1a488d; /* Light green */
+    color: #8FA17C; /* Light green */
     font-style: italic;
 }
 
@@ -50,8 +50,8 @@ nav ul li a:hover {
 .profile-photo {
     border: 10px solid #1dd1d1; /* Light green border */
     margin-top: 20px;
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: auto;
 }
 
 /* Main paragraph styles */
